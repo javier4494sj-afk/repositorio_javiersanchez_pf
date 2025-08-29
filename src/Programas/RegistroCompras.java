@@ -26,10 +26,13 @@ public class RegistroCompras {
 
         System.out.print("Ingrese compra 3: ");
         double compra3 = sc.nextDouble();
+        
+        System.out.print("Ingrese compra 4: ");
+        double compra4 = sc.nextDouble();
 
         // Cálculos
-        double totalCompras = compra1 + compra2 + compra3;
-        double promedioCompras = totalCompras / 3;
+        double totalCompras = compra1 + compra2 + compra3 + compra4;
+        double promedioCompras = totalCompras / 4;
 
         // Resultados
         System.out.println("\nRESULTADOS");
